@@ -35,7 +35,7 @@
 html, body { padding:0; margin:0; font-size:10px; }
 
 body {
-  font-family:'Gudea', Arial, Helvetica, sans-serif;
+  font-family:'Source Sans Pro', Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -44,7 +44,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight:300;
   text-transform:uppercase;
-  font-family:'League Gothic', Arial, Helvetica, sans-serif;
+  font-family:'Pathway Gothic One', Arial, Helvetica, sans-serif;
 }
   h1 { font-size:9.4em; margin-top:0; margin-bottom:0.5em; }
   h2 { font-size:5.4em; margin-top:0; margin-bottom:0.7em; }
@@ -63,10 +63,10 @@ h1, h2, h3, h4, h5, h6 {
 .section-title {
   font-weight: 300;
   text-transform: uppercase;
-  font-family: 'League Gothic', Arial, Helvetica, sans-serif;
+  font-family: 'Pathway Gothic One', Arial, Helvetica, sans-serif;
   font-size: 9.4em;
   margin-top: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.05em;
 }
 
 .page-title {
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1em;
 }
 
-p { font-size:2.5em; line-height:1.3em; margin:0 0 3em; font-weight:300; 
+p { font-size:2.5em; line-height:1.3em; margin:0 0 1em; font-weight:300; 
 	align: left;
 }
 
@@ -99,11 +99,12 @@ hr {
 }
 hr.padded { margin-bottom: 50px; }
 .text-center { text-align: center; }
+.text-left { text-align: left; }
 .accent-box {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 2px solid #000;
+  border: 0px solid #000;
   font-size: 2em;
   line-height: 1.4em;
   color: #000;
@@ -120,23 +121,23 @@ hr.padded { margin-bottom: 50px; }
   border-bottom: 1px dotted #000;
 }
 .accent-box:hover {
-  background: #000;
-  color: #fff;
+  background: #FCB713;
+  color: #000;
 }
 .accent-box:hover a {
-  color: #fff;
+  color: #000;
   border-bottom: 1px dotted #fff;
 }
 .accent-box a:hover {
   text-decoration: none;
-  color: #fff;
+  color: #000;
   border-bottom: 2px dotted #fff;
 }
 .accent-box .icon {
   padding-bottom: 10px;
 }
 .accent-box-primary {
-  background-color: #FF6600;
+  background-color: #FCB713;
   border: 3px solid #000;
   color: #000;
   font-size: 24px;
@@ -217,7 +218,7 @@ blockquote p.byline {
   #float-nav .logo { float:left; }
   #float-nav .logo img { height:45px; width:auto; margin-top:10px; }
   #float-nav ul {
-    font-family:'League Gothic', Arial, Helvetica, sans-serif;
+    font-family:'Pathway Gothic One', Arial, Helvetica, sans-serif;
     padding:0;
     margin:0;
     list-style:none;
@@ -246,10 +247,10 @@ blockquote p.byline {
     -o-transition: color 100ms ease-out;
     transition: color 100ms ease-out;
   }
-  #float-nav ul li:hover a { color:#FF6600; }
+  #float-nav ul li:hover a { color:#FCB713; }
   #float-nav ul li.active { background-color: #505050; }
   #float-nav ul li.active a:hover { color: #fff; }
-  #float-nav ul li a:hover { color:#FF6600; }
+  #float-nav ul li a:hover { color:#FCB713; }
     #float-nav .go-to-top {
       position:fixed;
       height:50px;
@@ -270,14 +271,14 @@ blockquote p.byline {
 
 #top-nav {
   width:100%;
-  font-family:'League Gothic', Arial, Helvetica, sans-serif;
+  font-family:'Pathway Gothic One', Arial, Helvetica, sans-serif;
   position:relative;
 }
 #top-nav > div {
   height:100%;
 }
 #top-nav ul {
-    font-family:'League Gothic', Arial, Helvetica, sans-serif;
+    font-family:'Pathway Gothic One', Arial, Helvetica, sans-serif;
     padding:0;
     margin:0;
     list-style:none;
@@ -328,7 +329,7 @@ blockquote p.byline {
 #top-nav {
   background-color: rgba(31,31,31,0.9);
 }
-#top-nav li:hover a { color:#FF6600; }
+#top-nav li:hover a { color:#FCB713; }
 #top-nav ul li.active { background-color: #505050; }
 #top-nav ul li.active a:hover { color: #fff; }
 
@@ -341,11 +342,11 @@ blockquote p.byline {
   font-size:2.8em;
   text-decoration:none;
   text-transform:uppercase;
-  font-family:'League Gothic', Arial, Helvetica, sans-serif;
+  font-family:'Pathway Gothic One', Arial, Helvetica, sans-serif;
   text-align:center;
   line-height:1em;
   margin-bottom:3em;
-  background: #FF6600;
+  background: #FCB713;
   color: #1f1f1f;
   -webkit-transition: background  100ms ease-out;
   -moz-transition: background 100ms ease-out;
@@ -358,11 +359,11 @@ blockquote p.byline {
   text-decoration: none;
 }
 .button.dark {
-  background:#353535;
+  background:#FCB713;
   color:#ffffff;
 }
 .button.dark:hover {
-  background:#1c1c1c;
+  background:#FCB713;
 }
 
 /* =Sections
@@ -376,9 +377,9 @@ section.banner-section {
   padding:90px 0 10px;
   min-height:100%;
   background-color:#1f1f1f;
-	  background-image: url(../img/banner_v3.png);
+	  background-image: url(../img/banner_v5_notext.png);
 	  background-repeat:no-repeat;
-	  background-size: contain;
+	  background-size: cover;
   
 }
 
@@ -396,19 +397,19 @@ section#about {
   color:#1f1f1f;
 }
 section#blog {
-  background-color:#FF6600;
+  background-color:#FCB713;
   color:#1f1f1f;
 }
 section#team {
 }
 section#contact {
-  background-color:#FF6600;
+  background-color:#FCB713;
 }
 section#contact h1 {
   padding-bottom: 0.5em;
 }
 section#home .header h1 {
-  color:#FF6600;
+  color:#FCB713;
 }
 section#home .header h2 {
   color:#FFFFFF;
@@ -433,7 +434,7 @@ section#our-works h1 {
   color:#FFFFFF;
 }
 section#our-works h2 {
-  color:#FF6600;
+  color:#FCB713;
 }
 
 section#blog h1 {
@@ -450,7 +451,7 @@ section#team h1 {
   padding-bottom: 0.5em;
 }
 section#team h2 {
-  color:#FF6600;
+  color:#FCB713;
 }
 section#team p {
   margin-bottom: 0em;
@@ -487,10 +488,10 @@ section#contact p {
 /* =Splash
  * ------------------------------------------------------------------------------------*/
 .splash-text {
-  font-family:'League Gothic', Arial, Helvetica, sans-serif;
+  font-family:'Pathway Gothic One', Arial, Helvetica, sans-serif;
   text-transform:uppercase;
-  font-size:12em;
-  font-weight:300;
+  font-size:20em;
+  font-weight:200;
 }
 .next-section {
   cursor: pointer;
@@ -599,7 +600,7 @@ ul.services > li a:hover {
 }
 .bio-name span {
   font-size:2em;
-  font-family:'League Gothic', Arial, Helvetica, sans-serif;
+  font-family:'Pathway Gothic One', Arial, Helvetica, sans-serif;
 }
 .bio-member {
   position:relative;
@@ -649,7 +650,7 @@ ul.services > li a:hover {
   display: block;
 }
 .bio-social a { color: black; }
-.bio-social a:hover { color: #FF6600; }
+.bio-social a:hover { color: #FCB713; }
 
 /* =Contact
  * ------------------------------------------------------------------------------------*/
@@ -668,7 +669,7 @@ ul.services > li a:hover {
   font-size:2em;
   background:#FFF;
   border:0;
-  font-family:'Gudea', Arial, Helvetica, sans-serif;
+  font-family:'Source Sans Pro', Arial, Helvetica, sans-serif;
   outline:none;
   display:block;
   position:absolute;
@@ -676,12 +677,12 @@ ul.services > li a:hover {
   top:10px;
   bottom:10px;
   right:66px;
-  width: 95%;
+  width: 85%;
 }
 #contact .input-field .right-block {
   display:block;
   float:right;
-  background:#FF6600;
+  background:#FCB713;
   position:absolute;
   top:0px;
   bottom:0px;
@@ -704,7 +705,7 @@ ul.services > li a:hover {
   top:10px;
   bottom:10px;
   outline:none;
-  font-family:'Gudea', Arial, Helvetica, sans-serif;
+  font-family:'Source Sans Pro', Arial, Helvetica, sans-serif;
   font-size:2em;
   color: #727272;
   width: 95%;
@@ -738,7 +739,7 @@ ul.services > li a:hover {
   margin-bottom: 20px;
 }
 .posting:hover {
-  background: #FF6600;
+  background: #FCB713;
 }
 .posting span {
   color: #000
@@ -748,7 +749,7 @@ ul.services > li a:hover {
 }
 .posting span {
   font-size:2em;
-  font-family:'League Gothic', Arial, Helvetica, sans-serif;
+  font-family:'Pathway Gothic One', Arial, Helvetica, sans-serif;
 }
 
 /* =Footer
@@ -771,7 +772,7 @@ footer {
   padding-left: 14px;
 }
 .social-icon:hover {
-  color: #FF6600;
+  color: #FCB713;
 }
 
 /* =Responsive
