@@ -77,6 +77,9 @@ h1, h2, h3, h4, h5, h6 {
 
 p { font-size:2.5em; line-height:1.3em; margin:0 0 1em; font-weight:300; 
 	align: left;
+	line-height: 150%;
+	text-align: justify;
+	text-justify:inter-ideograph;
 }
 
 a,
@@ -99,7 +102,11 @@ hr {
 }
 hr.padded { margin-bottom: 50px; }
 .text-center { text-align: center; }
-.text-left { text-align: left; }
+.text-left { text-align: left; 
+	line-height: 150%;
+	text-align: justify;
+	text-justify:inter-ideograph;
+}
 .accent-box {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -814,6 +821,9 @@ footer {
     margin:0 0 3em;
     font-weight:300;
 	text-align: left;
+	line-height: 150%;
+	text-align: justify;
+	text-justify:inter-ideograph;
   }
   ul.capabilities li {
     font-size:1.6em;
