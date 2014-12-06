@@ -57,17 +57,36 @@ h1, h2, h3, h4, h5, h6 {
     padding:0;
     margin-bottom:90px;
     text-align: center;
+	
   }
   .header h1, .header h2 { padding:0; margin:0; line-height:0.92; }
 
 .section-title {
-  font-weight: 300;
+  font-weight: 700;
   text-transform: uppercase;
   font-family: 'Pathway Gothic One', Arial, Helvetica, sans-serif;
-  font-size: 9.4em;
+  font-size: 12em;
   margin-top: 0;
   margin-bottom: 0.05em;
 }
+
+.vision-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Pathway Gothic One', Arial, Helvetica, sans-serif;
+  font-size: 12em;
+  margin-top: 0;
+  margin-bottom: 0.05em;
+  color: #FFF;
+}
+.dummy-title{
+	color: #FCB713;
+}
+
+.dummy-title2{
+	color: #EBEBEB;
+}
+
 
 .page-title {
   position: absolute;
@@ -387,6 +406,13 @@ section.banner-section {
 	  background-image: url(../img/banner_v5_notext.png);
 	  background-repeat:no-repeat;
 	  background-size: cover;
+  
+}
+
+section.vision-section {
+  padding:90px 0 10px;
+  min-height:100%;
+  background-color:#FCB713;
   
 }
 
