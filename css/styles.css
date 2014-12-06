@@ -43,7 +43,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight:300;
-  text-transform:uppercase;
   font-family:'Pathway Gothic One', Arial, Helvetica, sans-serif;
 }
   h1 { font-size:9.4em; margin-top:0; margin-bottom:0.5em; }
@@ -72,7 +71,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .vision-title {
   font-weight: 700;
-  text-transform: uppercase;
   font-family: 'Pathway Gothic One', Arial, Helvetica, sans-serif;
   font-size: 12em;
   margin-top: 0;
