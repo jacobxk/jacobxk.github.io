@@ -23,8 +23,8 @@
 
 	<style>
       #map-canvas {
-        width: 280px;
-        height: 300px;
+        width: 400px;
+        height: 350px;
       }
     </style>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
@@ -54,14 +54,60 @@
 
 <body>
 
+<section id="top"></section>
 
+
+  <nav id="mobile-nav-container">
+    <div id="mobile-nav">
+      <div class="logo"><a href="/"><img src="img/logo_final-01.png" alt="Match &amp; Match Ltd."></a></div>
+      <div id="mobile-nav-icon"><i class="fa fa-bars"></i></div>
+      <div class="clear"></div>
+      <ul>
+          <li class=""><a href="#vision" >Our Vision</a></li>
+          <li class=""><a href="#team">Key People</a></li>
+          <li class=""><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <nav id="float-nav">
+    <div class="container_12">
+      <div class="grid_12">
+        <span class="logo"><a href="/"><img src="img/logo_final-01.png" alt="Match &amp; Match Ltd."></a></span>
+        <span class="go-to-top fadeIn" data-section="top"></span>
+        <ul>
+		  <li class=""><a href="#vision" >Our Vision</a></li>
+		  <li class=""><a href="#team">Key People</a></li>
+		  <li class=""><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <nav id="top-nav">
+    <div class="container_12">
+      <div class="grid_12">
+        <span class="logo"><a href="/"><img src="img/logo_final-01.png" alt="Match &amp; Match Ltd."></a></span>
+		<ul>
+		  <li class=""><a href="#vision" >Our Vision</a></li>
+		  <li class=""><a href="#team">Key People</a></li>
+		  <li class=""><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 
 <section id="home" class="banner-section">
   <h1 class="page-title">Match &amp; Match Ltd.</h1>
   <div class="container_12">
     <div class="splash-text grid_12">
-      <span class="slabtext">We Match Possibilities</span>
+      <span class="slabtext">We Match Possibilities.<br></br></span>
+	  
     </div>
   </div>
 
@@ -74,25 +120,33 @@
 <section id="vision" class="vision-section">
 <div class="container_12">
 <div class="clear"></div>
-  <div class="grid_6">
+  <div class="grid_12">
     <div class="dummy-title">Vision</div>
   </div>
-    <div class="grid_6 header">
-	   <div class="vision-title">Vision</div>
+    <div class="grid_12 header">
+    <br><br>
+	   <h1>Our Vision<h1>
+
+     <br><br>
+
+       <img src="Design/glasses.png" width=200>
+       <br>
+       <br>
      </div>
 
-<div class="container_12">
+<div class="container_12 push_2">
 <div class="clear"></div>
-
-    <div class="grid_6">
+<div class="grid_2"></div>
+    <div class="grid_8">
 	   <p>We aspire to empower customers by developing valuable and time-saving IT solutions that enhance their quality of life. Such enhancement is achieved by closely matching customers' demand with the supply available in the market through data mining, data analysis and algorithmic operations. It is hoped that our products and services will have a positive impact on society.</p>
      <br>
      <br>
      <br>
      <br>
+     </div>
+    <div class="grid_2"></div>
     
-    </div>
-      <div class="grid_6"></div>
+      <div class="grid_12"></div>
     </div>
 </section>
 
@@ -100,38 +154,30 @@
 <section id="team" class="page-section">
 <div class="container_12">
     <div class="grid_12 header">
-       <div class="section-title">Key People</div>
-      
+    <br><br>
+       <h1>Key People<h1>
        </div>
        </div>
 
        <div class="container_12">
        <div class="clear"></div>
-       <div class="grid_6">
-       <h2>Michael R. SU</h2>
-       <hr>
+       <div class="grid_5 push_1">
+       <IMG class="displayed" src="Design/Mike.png" width=200>
+       <h2>Michael R. Su</h2>
+       <br>
        <p>Co-founder of M &amp; M, a researcher turned UX designer who believes ‘simplicity is the ultimate form of sophistication’. Graduate of Imperial College, Oxford University and General Assembly.</p>
        <br>
        <br>
        <br>
        <br>
        </div>
-       <div class="grid_6">
-         <div class="dummy-title2">Name</div>
-       </div>
-       <hr>
 
 
-       <div class="container_12">
-       <div class="clear"></div>
-       <div class="grid_6">
-         <div class="dummy-title2">Name</div>
-       </div>
-
-       <div class="grid_6">
-       <h2>Rex CHIM</h2>
-       <hr>
-       <p>Co-founder of M &amp; M, a lifelong tech enthusiast who builds and codes. Enjoys improving people's lives through tech. Holds a degree and a master from HKUST.</p>
+       <div class="grid_5 push_2">
+       <IMG class="displayed" src="Design/Rex.png" width=200>
+       <h2>Rex Chim</h2>
+       <br>
+       <p>Co-founder of M &amp; M, a tech enthusiast who strives to improve people's lives through tech and innovation. Graduate of HKUST in computer science.</p>
        <br>
        <br>
        <br>
@@ -145,46 +191,22 @@
 
 <!-- Start Contact -->
   <section id="contact" class="page-section">
-    <form id="contact-footer">
 
     <div class="container_12">
       <div class="grid_12 header">
+      <br><br><br><br>
         <h1>Contact Us</h1>
 
       </div>
 
-      <div class="grid_12 ajax-message error"><p>There has been an error sending your contact message. Please try again later.</p></div>
-      <div class="grid_12 ajax-message success"><p>Thanks for reaching out. You will hear from us very soon.</p></div>
-
-      <div class="grid_12 ajax-message validation-message error"><p></p></div>
-        <div class="grid_6 contact-form">
-
-          <span class="input-field">
-            <input type="text" name="name" id="contact_name" placeholder="Name/Company">
-            <span class="right-block"></span>
-          </span>
-
-          <span class="input-field">
-            <input type="text" name="email" id="contact_email" placeholder="Email">
-            <span class="right-block"></span>
-          </span>
-
-          <span class="input-field">
-            <input type="text" name="budget" id="contact_budget" placeholder="Subject">
-            <span class="right-block"></span>
-          </span>
-
-          <span class="textarea-field">
-            <textarea name="message" id="contact_message" placeholder="Comments or suggestions"></textarea>
-          </span>
-          <a href="#" class="button dark send-email">Send</a>
-        </div>
-
-        <div class="grid_6 accent-box text-left">
+      <div class="grid_6">
           <div id="map-canvas"></div>
-          <br>
-          <div class="text">Postal Address: Room 21, 7/F., Tower 1, Enterprise Square 1, 9 Sheung Yuet Road, Kowloon Bay, Kowloon. <br> Telephone: +852 3469 5697. <br> Email: enquiry@matchandmatch.com
-            </div>
+          </div>
+
+        <div class="grid_6">
+        <hr>
+          <p>Match and Match Ltd.</p><hr><p>Postal Address: Room 21, 7/F., Tower 1, Enterprise Square 1, 9 Sheung Yuet Road, Kowloon Bay, Kowloon.</p> <br> <p>Telephone: +852 3469 5697.</p> <br> <p>Email: enquiry@matchandmatch.com</p> <hr>
+        
         </div>
       </div>
     </form>
@@ -193,7 +215,7 @@
 
 <footer>
     <div class="container_12">
-      <i class="fa fa-copyright"></i> 2014 Match &amp; Match Ltd. All Rights Reserved.
+      <i class="fa fa-copyright"></i> 2014-2015 Match &amp; Match Ltd. All Rights Reserved.
       <a href="mailto:enquiry@matchandmatch.com?subject=Website"><i class="social-icon fa fa-envelope fa-lg"></i></a>
 
       
@@ -220,6 +242,8 @@
   ga('send', 'pageview');
 
 </script>
+
+
 
 
 </body>
