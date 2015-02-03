@@ -233,7 +233,7 @@ blockquote p.byline {
   top:0px;
   height: 64px;
   z-index:1000;
-  background-color: rgba(31, 31, 31, 0.9);
+  background-color: rgba(76, 76, 76, 0.9);
   -webkit-transition: margin-top 300ms ease, visibility 0s 100ms, opacity 100ms linear; -moz-transition: margin-top 300ms ease, visibility 0s 100ms, opacity 100ms linear;
   -ms-transition: margin-top 300ms ease, visibility 0s 100ms, opacity 100ms linear; -o-transition: margin-top 300ms ease, visibility 0s 100ms, opacity 100ms linear;
   transition: margin-top 300ms ease, visibility 0s 100ms, opacity 100ms linear;
@@ -418,11 +418,14 @@ section.banner-section {
 section.vision-section {
   padding:90px 0 10px;
   height:100vh;
-  background-color:#FAE25A;
-
-  
+  background-color:#FAE25A; 
 }
 
+section.contact-section {
+  padding:60px 0 10px;
+  height:90vh;
+  background-color:#FAE25A; 
+}
 	
 	
 section#home {
@@ -797,14 +800,14 @@ ul.services > li a:hover {
 /* =Footer
  * ------------------------------------------------------------------------------------*/
 footer {
-  background: #000;
+  background: #4c4c4c;
   color: #FFF;
-  height: 55px;
+  height: 35px;
   width: 100%;
   margin: 0;
-  font-size: 1.2em;
-  font-weight: 300;
-  padding-top: 3em;
+  font-size: 2.0em;
+  font-weight: 200;
+  padding-top: 1em;
 }
 
 .social-icon {
