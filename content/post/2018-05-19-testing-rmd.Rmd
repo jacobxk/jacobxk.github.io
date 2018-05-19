@@ -1,0 +1,17 @@
+---
+title: Testing Rmd
+author: ~
+date: '2018-05-19'
+slug: testing-rmd
+categories: []
+tags: []
+---
+
+Plot a histogram.
+
+
+```{r}
+dat <- rnorm(100)
+hist(dat)
+```
+
